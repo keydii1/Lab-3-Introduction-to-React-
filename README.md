@@ -86,7 +86,7 @@ src/
 Deployed on Vercel. To deploy your own:
 
 1. Push to GitHub
-2. Import project on [Vercel](https://vercel.com)
+2. Import project on [Vercel](https://lab-3-introduction-to-react.vercel.app/)
 3. Deploy automatically with Vite preset
 
 ## 👨‍🎓 Author
