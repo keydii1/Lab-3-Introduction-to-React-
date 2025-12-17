@@ -1,0 +1,70 @@
+/* Counter Styles */
+.counter-container {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  margin: 10px;
+  box-shadow: 0 10px 40px rgba(30, 60, 114, 0.4);
+}
+
+.counter-container h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.count-display {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.btn-plus {
+  background: #27ae60;
+  color: white;
+}
+
+.btn-plus:hover {
+  background: #2ecc71;
+  transform: scale(1.1);
+}
+
+.btn-minus {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn-minus:hover {
+  background: #c0392b;
+  transform: scale(1.1);
+}
+
+.btn-reset {
+  background: #95a5a6;
+  color: white;
+}
+
+.btn-reset:hover {
+  background: #7f8c8d;
+  transform: scale(1.1);
+}
