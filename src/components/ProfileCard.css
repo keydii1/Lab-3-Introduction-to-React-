@@ -1,0 +1,47 @@
+/* ProfileCard Styles */
+.profile-card-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  border-radius: 16px;
+  color: white;
+  margin: 10px;
+  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-card-container:hover {
+  transform: translateY(-5px);
+}
+
+.profile-avatar {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-name {
+  margin: 0 0 8px 0;
+  font-size: 1.4rem;
+}
+
+.profile-detail {
+  margin: 4px 0;
+  opacity: 0.9;
+}
+
+.label {
+  font-weight: 600;
+}
